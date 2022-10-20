@@ -30,3 +30,4 @@ def order(sentence):
 # best solution
 # def order(words):
 #  return ' '.join(sorted(words.split(), key=lambda w:sorted(w)))
+
