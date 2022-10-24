@@ -18,7 +18,7 @@ def generate_hashtag(s):
     if s == '' or len(s) >= 140:
         return False
     else:
-        return '#'+s.strip().replace(' ', '')
+        return '#'+s.title().strip().replace(' ', '')
 
 def generate_hashtag2(s):
     return False if s == '' or len(s) >= 140 else '#'+s.title().strip().replace(' ', '')
